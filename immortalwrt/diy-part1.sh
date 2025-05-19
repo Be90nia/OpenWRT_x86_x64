@@ -18,6 +18,7 @@ rm -rf feeds/luci/applications/luci-app-argon-config
 mkdir package/community
 pushd package/community
 git clone --depth=1 https://github.com/fw876/helloworld
+git clone --depth=1 https://github.com/sirpdboy/luci-app-ddns-go
 # git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall2
 git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-nikki
 git clone --depth=1 https://github.com/DHDAXCW/dhdaxcw-app
